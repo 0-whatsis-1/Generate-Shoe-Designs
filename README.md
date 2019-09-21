@@ -4,7 +4,7 @@ This repository is developed using the concept of Generative Adversarial Network
 
 Dataset: The large dataset of shoes consisting of 50,025 images can be downloaded from Zappos.com
 The images are divided into 4 major categories — shoes, sandals, slippers, and boots. The shoes are centered on a white background and pictured in the same orientation for convenient analysis.
-The link to the website containing dataset is: http://vision.cs.utexas.edu/projects/finegrained/utzap50k/
+*** The Shoe folder contains only 256 images of shoes which is used in this repository. You can download the whole dataset from the link: http://vision.cs.utexas.edu/projects/finegrained/utzap50k/
 
 Methods: For the Generator, a series consisting of strided 2D Convolutional Transpose layers paired with a 2D Batch Normalization and a ReLU activation is used. Output is fed through a tanh Activation function to return it to the input data range [-1, 1]. 
 For the Discriminator, a series consisting of strided 2D Convolutional layers paired with a 2D Batch Normalization and a Leaky ReLU activation is used. Linear Activation is used for calculating the final probability.

@@ -1,6 +1,6 @@
 # Generate-Shoe-Designs
 
-This repositoryis developed using the concept of Generative Adversarial Networks(DCGAN & WGAN) to design and generate new images of shoes.
+This repository is developed using the concept of Generative Adversarial Networks(DCGAN & WGAN) to design and generate new images of shoes.
 
 Dataset: The large dataset of shoes consisting of 50,025 images can be downloaded from Zappos.com
 The images are divided into 4 major categories — shoes, sandals, slippers, and boots. The shoes are centered on a white background and pictured in the same orientation for convenient analysis.
